@@ -84,9 +84,8 @@ class App extends Component {
 
         {name: 'Object-oriented programming', 
         institution: 'Code', 
-        date: 'May 2021', 
-        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using Java as programming language.'},
-
+        date: 'Jan 2021', 
+        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using C++ as programming language.' },
       ],
 
       skills: [
