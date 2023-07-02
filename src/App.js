@@ -25,7 +25,7 @@ class App extends Component {
         company: 'Personal', 
         startDate: 'Sep 2020', endDate: 'Jul 2023', 
         description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
-        tech:'HTML5, CSS, JavaScript, React.js, Visual Studio Code, Surge.sh'},
+        tech:'HTML5, CSS, JavaScript, React.js, Node.js, Docker, Visual Studio Code, Surge.sh'},
 
         {title: 'Animaland', 
         company: 'Personal', 
