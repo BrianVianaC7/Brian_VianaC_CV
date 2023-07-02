@@ -13,7 +13,7 @@ class App extends Component {
       avatar: 'https://unavatar.io/brian.vianac@outlook.com',
       name: 'Brian Alejandro Viana Clavijo',
       profession: 'Computer Systems Engineering student',
-      bio: "🫶 I'm currently a student interested in the whole subject of programming, specifically Full Stack. Always learning new things 🫶",
+      bio: "🫶 I'm currently a student interested in the whole subject of programming, specifically as Mobile App Developer. Always learning new things 🫶",
       address: 'Mexico City, Mexico.',
       social: [
         {name: 'linkedin', url: 'https://www.linkedin.com/in/brian-viana7/'},
@@ -23,9 +23,9 @@ class App extends Component {
       experience: [
         {title: 'Brian VianaC CV', 
         company: 'Personal', 
-        startDate: 'Sep 2020', endDate: 'May 2023', 
-        description: 'Developed a customized resume using Visual Studio and React.',
-        tech:'HTML, CSS, JavaScript, JavaScript (React), Visual Studio Code, Surge.sh'},
+        startDate: 'Sep 2020', endDate: 'Jul 2023', 
+        description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
+        tech:'HTML5, CSS, JavaScript, React.js, Visual Studio Code, Surge.sh'},
 
         {title: 'Animaland', 
         company: 'Personal', 
@@ -67,15 +67,25 @@ class App extends Component {
       ],
 
       certificate: [
+        {name: 'Mobile app development', 
+        institution: 'Google', 
+        date: 'Jun 2023', 
+        description: 'Completed a comprehensive introductory course with a solid foundation in mobile app development, as well as learning ASO (App Store Optimization) best practices.'},
+
+        {name: 'Introduction to kotlin', 
+        institution: 'SoloLearn', 
+        date: 'May 2023', 
+        description: 'Completed a comprehensive programming course with a solid foundation in applied computer science principles and object-oriented programming, including data structures, algorithms, using Kotlin as programming language.'},
+
         {name: 'Object-oriented programming', 
         institution: 'Code', 
         date: 'May 2021', 
-        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using Java as programming language.' },
+        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using Java as programming language.'},
 
         {name: 'Object-oriented programming', 
         institution: 'Code', 
         date: 'Jan 2021', 
-        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using C++ as programming language.' }
+        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using C++ as programming language.' },
       ],
 
       skills: [
@@ -83,14 +93,18 @@ class App extends Component {
         {name: 'CSS'},
         {name: 'XML'},
         {name: 'JavaScript'},
-        {name: 'JavaScript (React)'},
+        {name: 'React.js'},
+        {name: 'Node.js'},
         {name: 'Java'},
-        {name: 'Python'},
         {name: 'C++'},
         {name: 'Kotlin'},
+        {name: 'JetPack-Compose'},
         {name: 'SQL'},
         {name: 'NoSQL'},
-        {name: 'Linux'}
+        {name: 'Linux'},
+        {name: 'Firebase'},
+        {name: 'Git'},
+        {name: 'Docker'},
       ],
 
       additionalSkills: [
@@ -98,10 +112,10 @@ class App extends Component {
         {name: 'MATLAB'},
         {name: 'Visual Studio Code'},
         {name: 'Apache NetBeans'},
-        {name: 'CodeBlocks'},
         {name: 'Object DB'},
         {name: 'MySQL'},
         {name: 'Android Studio'},
+        {name: 'GitHub Desktop'},
       ]
       
     };
