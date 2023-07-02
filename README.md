@@ -1,4 +1,4 @@
-# Developed a customized resume using Visual Studio and React.
+# Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability.
 my resume
 
 https://brian_alejandro_viana_clavijo.surge.sh/
