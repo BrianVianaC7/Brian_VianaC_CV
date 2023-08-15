@@ -25,7 +25,7 @@ const Skills = (props) => {
     <div className='title'>
       <i className='fa fa-tasks'></i>
       <h2>TECH STACK</h2>
-      <h3> FRONT-END AND BACK-END</h3>
+      <h3> SOFTWARE DEVELOPMENT</h3>
       {mySkills}
       <h3> SOFTWARE</h3>
       {additionalSkills}

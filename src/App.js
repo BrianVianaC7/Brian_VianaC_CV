@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import About from './components/About';
 import Experience from './components/Experience';
+import PersonalExperience from './components/PersonalExperience';
 import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Skills from './components/Skills';
@@ -22,8 +23,16 @@ class App extends Component {
 
       experience: [
         {title: 'Brian VianaC CV', 
+        company: 'philip morris international', 
+        startDate: 'May 2023', endDate: 'Current', 
+        description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
+        tech:'HTML5, CSS, JavaScript, React.js, Node.js, Docker, Visual Studio Code, Surge.sh'}
+      ],
+
+      personalExperience:[
+        {title: 'Brian VianaC CV', 
         company: 'Personal', 
-        startDate: 'Sep 2020', endDate: 'Jul 2023', 
+        startDate: 'Sep 2020', endDate: 'Ago 2023', 
         description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
         tech:'HTML5, CSS, JavaScript, React.js, Node.js, Docker, Visual Studio Code, Surge.sh'},
 
@@ -39,11 +48,11 @@ class App extends Component {
         description: 'Built a program to reinforce the English language, with the implementation of threads a list of preset songs for the user is created, a test is created where the user completes the songs of the music player, has a test score in addition to a login Through a relational database in MySQL.',
         tech:'Java, Apache NetBeans, MySQL, MySQL Workbench'},
 
-        {title: 'Balanced-Tree-Maximum-Heap', 
+        {title: 'Naruto Quotes', 
         company: 'Personal', 
         startDate: 'Sep 2022', endDate: 'Dec 2022', 
-        description: 'Built a maximum heap program of a balanced tree, using recursion for the heap, both to added new elements to the tree and eliminate elements of the tree.',
-        tech:'C++, Code Blocks'}
+        description: 'Developed a "Naruto Quotes" Mobile App using Clean Architecture, MVVM, ROOM, Retrofit, Dagger HILT, Picasso and Firebase for the cloud services which contains Quotes, Author and Image (URL) to offer a collection of inspirational random quotes from the anime " Naruto." In addition, unit tests have been included to ensure the quality and stability of the code.',
+        tech:'Kotlin, Firebase, Clean Architecture, MVVM, Unit Test, Android Studio'}
       ],
 
       education: [
@@ -136,6 +145,7 @@ class App extends Component {
           <div className='content-wrapper'>
               <div className='content'>
                 <Experience experience={person.experience} />
+                <PersonalExperience personalExperience = {person.personalExperience}/>
                 <Education education={person.education} />
                 <Certificate certificate={person.certificate} />
                 <Skills skills={person.skills} additionalSkills={person.additionalSkills}/>
