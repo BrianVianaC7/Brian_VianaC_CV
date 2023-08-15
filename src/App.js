@@ -26,7 +26,7 @@ class App extends Component {
         company: 'philip morris international', 
         startDate: 'May 2023', endDate: 'Current', 
         description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
-        tech:'HTML5, CSS, JavaScript, React.js, Node.js, Docker, Visual Studio Code, Surge.sh'}
+        tech:'Salesforce, more'}
       ],
 
       personalExperience:[
