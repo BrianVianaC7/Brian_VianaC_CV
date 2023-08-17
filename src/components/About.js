@@ -14,7 +14,7 @@ const About = ({avatar, name, profession, bio, address, social}) => {
       </div>
       <div className='desc'>
         <p>{bio}</p>
-        <p/>Spanish (Native) English (Intermediate B1)
+        <p/>Spanish (Native) English (Intermediate B2)
       </div>
       <div className='address'>
         <p>{address}</p>

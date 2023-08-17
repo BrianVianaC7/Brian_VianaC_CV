@@ -26,7 +26,7 @@ class App extends Component {
         company: 'philip morris international', 
         startDate: 'May 2023', endDate: 'Current', 
         description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
-        tech:'Salesforce, more'}
+        tech:'MS Office, PowerBI, PowerStreet, Salesforce, Salesforce(Inspector)'}
       ],
 
       personalExperience:[
@@ -59,19 +59,25 @@ class App extends Component {
         {degree: 'Computer Systems Engineering', 
         institution: 'UVM', 
         startDate: 'Aug 2020', endDate: 'Currently', 
-        description: 'University of the Valley of Mexico (UVM, Coyoacan Campus, Mexico City)', 
+        description: 'University of the Valley of Mexico (Coyoacan Campus, Mexico City)', 
         subdescription: 'Sixth semester - Grade: 9.7' },
+
+        {degree: 'Full Stack Java', 
+        institution: 'BEDU - Santander', 
+        startDate: 'Jul 2023', endDate: 'Dec 2023', 
+        description: 'Bootcamp scholarship (Mexico City)', 
+        subdescription: 'Winner of one of the 500 scholarships nationwide' },
 
         {degree: 'English Immersion Program', 
         institution: 'BLI', 
         startDate: 'Dec 2021', endDate: 'Jan 2022', 
-        description: 'Bouchereau Lingua International', 
+        description: 'Bouchereau Lingua International (Montreal)', 
         subdescription: 'Student exchange'},
 
         {degree: 'English as a Second Languaje', 
         institution: 'Tulare School', 
         startDate: 'Sep 2019', endDate: 'Jan 2020', 
-        description: 'Tulare Adult School', 
+        description: 'Tulare Adult School (California)', 
         subdescription: 'Student exchange'},
       ],
 
