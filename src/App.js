@@ -24,8 +24,8 @@ class App extends Component {
       experience: [
         {title: 'Brian VianaC CV', 
         company: 'philip morris international', 
-        startDate: 'May 2023', endDate: 'Current', 
-        description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
+        startDate: 'Apr 2023', endDate: 'Sep 2023', 
+        description: 'Developed  ',
         tech:'MS Office, PowerBI, PowerStreet, Salesforce, Salesforce(Inspector)'}
       ],
 
@@ -120,6 +120,7 @@ class App extends Component {
         {name: 'Firebase'},
         {name: 'Git'},
         {name: 'Docker'},
+        {name: 'Salesforce'},
       ],
 
       additionalSkills: [
