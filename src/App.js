@@ -14,7 +14,7 @@ class App extends Component {
       avatar: 'https://unavatar.io/brian.vianac@outlook.com',
       name: 'Brian Alejandro Viana Clavijo',
       profession: 'Computer Systems Engineering student',
-      bio: "🫶 I'm currently a student interested in the whole subject of programming, specifically as Mobile App Developer. Always learning new things 🫶",
+      bio: "🫶 I'm currently a student interested in the whole subject of programming, specifically as Native Mobile App Developer. Always learning new things 🫶",
       address: 'Mexico City, Mexico.',
       social: [
         {name: 'linkedin', url: 'https://www.linkedin.com/in/brian-viana7/'},
@@ -22,11 +22,13 @@ class App extends Component {
       ],
 
       experience: [
-        {title: 'Brian VianaC CV', 
-        company: 'philip morris international', 
+        {title: 'Data Analyst', 
+        company: 'Philip Morris International || Open Web App', 
         startDate: 'Apr 2023', endDate: 'Sep 2023', 
-        description: 'Developed  ',
-        tech:'MS Office, PowerBI, PowerStreet, Salesforce, Salesforce(Inspector)'}
+        description: '- Mass activation and deactivation of users in the OPEN web application. During this process. Improve efficiency in managing userrelated data.'
+        +'\n- Creation and updating of a data set in Power BI by pulling data from Salesforce. I implemented analytics automated data processing using Power BI.'
+        +'\n- Generation and daily updating of prizes for all users of the web application, supervising the control of prizes to assess their validity, delivery status and need for elimination. The results of these activities were reflected in PowerB1, allowing effective control and visualization of data.',
+        tech:'SQL, Salesforce, Salesforce (Inspector), Power BI, Ms. Office (Excel), Power Query, Visual Basic, PowerStreet, Scripts'}
       ],
 
       personalExperience:[
@@ -52,7 +54,7 @@ class App extends Component {
         company: 'Personal', 
         startDate: 'Sep 2022', endDate: 'Dec 2022', 
         description: 'Developed a "Naruto Quotes" Mobile App using Clean Architecture, MVVM, ROOM, Retrofit, Dagger HILT, Picasso and Firebase for the cloud services which contains Quotes, Author and Image (URL) to offer a collection of inspirational random quotes from the anime " Naruto." In addition, unit tests have been included to ensure the quality and stability of the code.',
-        tech:'Kotlin, Firebase, Clean Architecture, MVVM, Unit Test, Android Studio'}
+        tech:'Kotlin, Firebase, Room, Clean Architecture, MVVM, Unit Test (Mockito), Android Studio'}
       ],
 
       education: [
@@ -82,6 +84,11 @@ class App extends Component {
       ],
 
       certificate: [
+        {name: 'Scrum Master', 
+        institution: 'Project Management institute', 
+        date: 'Oct 2023', 
+        description: 'Completed Scrum Master certification preparation, mastering essential Scrum knowledge for agile team contributions."'},
+
         {name: 'Mobile app development', 
         institution: 'Google', 
         date: 'Jun 2023', 
@@ -96,11 +103,6 @@ class App extends Component {
         institution: 'Code', 
         date: 'May 2021', 
         description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using Java as programming language.'},
-
-        {name: 'Object-oriented programming', 
-        institution: 'Code', 
-        date: 'Jan 2021', 
-        description: 'Completed a comprehensive object-oriented programming course with a solid foundation in applied computer science principles, including data structures, algorithms, and software design patterns, using C++ as programming language.' },
       ],
 
       skills: [
@@ -111,7 +113,6 @@ class App extends Component {
         {name: 'React.js'},
         {name: 'Node.js'},
         {name: 'Java'},
-        {name: 'C++'},
         {name: 'Kotlin'},
         {name: 'JetPack-Compose'},
         {name: 'SQL'},
