@@ -5,7 +5,12 @@ const PersonalExperience = (props) => {
       <div>
         {props.personalExperience.map((exp) =>
           <div className='item' key={exp.Title}>
-            <h3>{exp.title} | {exp.company} <span>{exp.startDate} - {exp.endDate}</span></h3>
+            <h3>
+              {exp.title} | {exp.company}
+              <a href={exp.url} target='_blank' rel="noopener noreferrer">
+                <i className={'fa fa-external-link'}></i>
+              </a>
+            </h3>
             <p>{exp.description}</p>
             <h3>Tech Stack: <span>{exp.tech}</span></h3>
           </div>

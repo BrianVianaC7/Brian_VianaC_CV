@@ -5,6 +5,10 @@ body{
     font-family:'Raleway',sans-serif;
 }
 
+a{
+    float: right;
+}
+
 header .wrapper{
     margin:0;
     padding:0;

@@ -14,7 +14,7 @@ class App extends Component {
       avatar: 'https://unavatar.io/brian.vianac@outlook.com',
       name: 'Brian Alejandro Viana Clavijo',
       profession: 'Computer Systems Engineering student',
-      bio: "🫶 I'm currently a student interested in the whole subject of programming, specifically as Native Mobile App Developer. Always learning new things 🫶",
+      bio: "🫶 Computer Systems Engineering with a focus on Native Android Development and Full Stack Development. Skilled in strategy consulting and software engineering. Always learning new things 🫶",
       address: 'Mexico City, Mexico.',
       social: [
         {name: 'linkedin', url: 'https://www.linkedin.com/in/brian-viana7/'},
@@ -22,39 +22,53 @@ class App extends Component {
       ],
 
       experience: [
+        {title: 'Android Developer', 
+        company: 'QuarkSoft || ESAN App - Zeus App', 
+        startDate: 'Jul 2023', endDate: 'Current', 
+        description: '- Creation of modules and integration of new functionalities, using MVVM architecture pattern and Clean Architecture, focused on the analysis of requirements and resolution of business logic errors.'
+        +'\n- Experience in implementing code obfuscation using DexGuard and ProGuard to ensure application security.'
+        +'\n- Creation and management of AAR SDKs modules to facilitate the integration of functionalities in different projects.'
+        +'\n- Generation of Bundles optimized for the implementation and updating of versions in the Play Store.',
+        tech:'Kotlin, Clean Architecture, MVVM, Retrofit 2, Dagger, Room, SDKs, DexGuard, ProGuard, Android Studio, App Store Optimization (ASO), Aws (CodeCommit), Git, GitFlow, Postman, Trello.'},
+        
+        {title: 'Java Developer', 
+        company: 'Bolsa Mexicana de Valores || Track Audit', 
+        startDate: 'Apr 2023', endDate: 'Jul 2023', 
+        description: '- Developed SQL scripts to update state flows in databases.'
+        +'\n- Created detailed code documentation, use case flows, and user guides'
+        +'\n- Provided ongoing support and maintenance for the "Track Audit" web tool.'
+        +'\n- Developed and implemented code for the automated generation of emails associated with each use case flow.',
+        tech:'Java, HTML, CSS, Spring, SQL-Server, Cayenne, PrimeFaces, Git, Ms Office, Power Query.'},
+
         {title: 'Data Analyst', 
         company: 'Philip Morris International || Open Web App', 
         startDate: 'Apr 2023', endDate: 'Sep 2023', 
-        description: '- Mass activation and deactivation of users in the OPEN web application. During this process. Improve efficiency in managing userrelated data.'
-        +'\n- Creation and updating of a data set in Power BI by pulling data from Salesforce. I implemented analytics automated data processing using Power BI.'
-        +'\n- Generation and daily updating of prizes for all users of the web application, supervising the control of prizes to assess their validity, delivery status and need for elimination. The results of these activities were reflected in PowerB1, allowing effective control and visualization of data.',
-        tech:'SQL, Salesforce, Salesforce (Inspector), Power BI, Ms. Office (Excel), Power Query, Visual Basic, PowerStreet, Scripts'}
+        description: '- Mass activation and deactivation of users in the OPEN web App. During this process. Improve efficiency in managing user-related data.'
+        +'\n- Creation and updating of a data set in Power BI by pulling data from Salesforce. Implemented analytics automated data processing using Power BI.'
+        +'\n- Generation and updating of prizes for all users of the web App, supervising the control of prizes to assess their validity, delivery status and need for elimination. The results of these activities were reflected in PowerB1, allowing effective control and visualization of data.',
+        tech:'Python, SQL, Salesforce (Inspector), Power BI, Ms. Office (Excel), Power Query, Visual Basic, PowerStreet, Scripts.'},
+
       ],
 
       personalExperience:[
         {title: 'Brian VianaC CV', 
         company: 'Personal', 
-        startDate: 'Sep 2020', endDate: 'Ago 2023', 
         description: 'Developed a customized resume using Visual Studio, React.js, Node.js, and Docker to ensure efficient development, seamless integration, and enhanced portability. ',
-        tech:'HTML5, CSS, JavaScript, React.js, Node.js, Docker, Visual Studio Code, Surge.sh'},
+        url: 'https://github.com/BrianVianaC7/Brian_VianaC_CV',
+        tech:'VSCode, HTML5, CSS, Bootstrap, JavaScript, React, Node.js, Docker, Surge.sh.'},
 
-        {title: 'Animaland', 
+        {title: 'Soccer Players', 
         company: 'Personal', 
-        startDate: 'Sep 2021', endDate: 'Dec 2021', 
-        description: 'Built an Educational software for kindergartens that provides information and reproduces animal sounds, It has a login made in a relational database. Along with an interactive game (Memory game), where completion time gets saved through reading and saving files.',
-        tech:'Java, Apache NetBeans, MySQL, MySQL Workbench'},
+        description: 'Built a backend for Player Management with Spring Boot and Java 21. Features CRUD operations, data validation, and uses Spring Data JPA with MySQL. Includes automatic API documentation, object mapping, unit testing and GitHub Actions for CI/CD',
+        url: 'https://github.com/BrianVianaC7/Project_Backend',
+        tech:'Java, Spring, Spring Boot, JPA, REST, Unit Test (Mockito), OpenAPI, MySQL, GitHub, Git, GitFlow, CI/CD, Postman.'},
 
-        {title: 'Soundland', 
-        company: 'Personal', 
-        startDate: 'Jan 2022', endDate: 'May 2022', 
-        description: 'Built a program to reinforce the English language, with the implementation of threads a list of preset songs for the user is created, a test is created where the user completes the songs of the music player, has a test score in addition to a login Through a relational database in MySQL.',
-        tech:'Java, Apache NetBeans, MySQL, MySQL Workbench'},
 
-        {title: 'Naruto Quotes', 
-        company: 'Personal', 
-        startDate: 'Sep 2022', endDate: 'Dec 2022', 
-        description: 'Developed a "Naruto Quotes" Mobile App using Clean Architecture, MVVM, ROOM, Retrofit, Dagger HILT, Picasso and Firebase for the cloud services which contains Quotes, Author and Image (URL) to offer a collection of inspirational random quotes from the anime " Naruto." In addition, unit tests have been included to ensure the quality and stability of the code.',
-        tech:'Kotlin, Firebase, Room, Clean Architecture, MVVM, Unit Test (Mockito), Android Studio'}
+        {title: 'Naruto App', 
+        company: 'Personal',  
+        description: 'Developed a "Naruto App" Mobile App using Clean Architecture, MVVM, ROOM, Retrofit, Dagger HILT, Picasso, Lottie, Navigation Component, and other Third-Party Libraries. Firebase was utilized for cloud services, incorporating features for Bjuus, Random Cards, and Characters from the "Naruto" anime.  In addition, unit and UI tests have been included to ensure the quality and stability of the code.',
+        url: 'https://github.com/BrianVianaC7/BjuusApp', 
+        tech:'Kotlin, Room, Clean Architecture, MVVM, Unit Test (Mockito), UI Test (espresso), Retrofit 2, Dagger Hilt, Lottie, Navigation Component, Picasso, Android Studio, Firebase, Git, GitFlow, Postman.'}
       ],
 
       education: [
@@ -75,12 +89,6 @@ class App extends Component {
         startDate: 'Dec 2021', endDate: 'Jan 2022', 
         description: 'Bouchereau Lingua International (Montreal)', 
         subdescription: 'Student exchange'},
-
-        {degree: 'English as a Second Languaje', 
-        institution: 'Tulare School', 
-        startDate: 'Sep 2019', endDate: 'Jan 2020', 
-        description: 'Tulare Adult School (California)', 
-        subdescription: 'Student exchange'},
       ],
 
       certificate: [
@@ -94,7 +102,7 @@ class App extends Component {
         date: 'Jun 2023', 
         description: 'Completed a comprehensive introductory course with a solid foundation in mobile app development, as well as learning ASO (App Store Optimization) best practices.'},
 
-        {name: 'Introduction to kotlin', 
+        {name: 'Kotlin', 
         institution: 'SoloLearn', 
         date: 'May 2023', 
         description: 'Completed a comprehensive programming course with a solid foundation in applied computer science principles and object-oriented programming, including data structures, algorithms, using Kotlin as programming language.'},
@@ -106,35 +114,28 @@ class App extends Component {
       ],
 
       skills: [
-        {name: 'HTML'},
-        {name: 'CSS'},
-        {name: 'XML'},
-        {name: 'JavaScript'},
-        {name: 'React.js'},
-        {name: 'Node.js'},
-        {name: 'Java'},
         {name: 'Kotlin'},
-        {name: 'JetPack-Compose'},
+        {name: 'Jetpack Compose'},
+        {name: 'Java'},
+        {name: 'Spring (Spring Boot)'},
         {name: 'SQL'},
         {name: 'NoSQL'},
         {name: 'Linux'},
         {name: 'Firebase'},
-        {name: 'Git'},
+        {name: 'AWS'},
         {name: 'Docker'},
-        {name: 'Salesforce'},
+        {name: 'Git'},
       ],
-
-      additionalSkills: [
+    
+    additionalSkills: [
         {name: 'MS Office'},
-        {name: 'MATLAB'},
-        {name: 'Visual Studio Code'},
-        {name: 'Apache NetBeans'},
+        {name: 'Android Studio'},
+        {name: 'GitHub (CodeCommit)'},
+        {name: 'VSCode'},
+        {name: 'IntelliJ'},
         {name: 'Object DB'},
         {name: 'MySQL'},
-        {name: 'Android Studio'},
-        {name: 'GitHub Desktop'},
-      ]
-      
+      ]    
     };
 
     return (
